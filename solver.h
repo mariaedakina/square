@@ -50,7 +50,7 @@ struct Roots {
 struct Test_Data {
     int nTest;           ///< Номер теста.
     struct Koefs koefs;  ///< Коэффициенты квадратного уравнения.
-    struct Roots roots;  ///< Ожидаемые корни уравнения.
+    struct Roots roots;  ///< Вычисленные корни уравнения.
     double right_x1;     ///< Ожидаемый первый корень (при наличии).
     double right_x2;     ///< Ожидаемый второй корень (при наличии).
     double right_nRoots; ///< Ожидаемое количество корней.
@@ -78,6 +78,7 @@ enum roooots {
 void SolveSquare(struct Test_Data* r);
 
 #endif // SOLVER_H
+
 
 
 
