@@ -3,11 +3,7 @@
 #include <stdlib.h>
 #include <assert.h>
 #include "proverka.h"
-#include <stdio.h>
-#include <math.h>
-#include <stdlib.h>
-#include <assert.h>
-#include "proverka.h"
+
 
 
 /**
